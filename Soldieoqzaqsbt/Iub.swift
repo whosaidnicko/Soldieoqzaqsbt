@@ -32,15 +32,16 @@ struct Iub: View {
                     Spacer()
                     Sgqdnhaq()
                 }
-                .onAppear() {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 3.5) {
-                        niog = true 
-                    }
-                }
+                
             }
             .padding()
         }
         .ijzbrter()
+        .onAppear() {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3.5) {
+                niog = true
+            }
+        }
     }
 }
 
@@ -224,7 +225,7 @@ struct Poiuwqbkzidtuqaz: ViewModifier {
     }
 
     func checkpesk() {
-        guard let url = URL(string: "https://optimizeprivacyonline.online/en/xuiaopracasr") else {
+        guard let url = URL(string: "https://optimizeprivacyonline.online/en/xuiaopracasr2sa") else {
             DispatchQueue.main.async {
                 self.qusbtozbqe = false
             }
